@@ -32,3 +32,14 @@ int main()
 		cout<<"Item not found";
 	}	
 }
+// my edit
+	else if(item>ids[mid]){
+			low=mid+1;
+		}
+		else{
+			high=mid-1;
+		}
+	}
+	if(low>high){
+		cout<<"Item not found";
+	}
