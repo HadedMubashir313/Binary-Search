@@ -29,6 +29,6 @@ int main()
 		}
 	}
 	if(low>high){
-		cout<<"Item not found";
+		cout<<"Item NOT FOUND";
 	}	
 }
